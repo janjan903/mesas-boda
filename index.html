@@ -701,7 +701,7 @@ class="absolute top-0 left-0 w-100 opacity-90 pointer-events-none">
       const container = document.getElementById('tables-container');
       container.innerHTML = '';
       
-      for (let tableNum = 1; tableNum <= 25; tableNum++) {
+      for (let tableNum = 1; tableNum <= 26; tableNum++) {
         const tableGuests = guestsData.filter(g => g.table_number === tableNum);
         const tableEl = createTableElement(tableNum, tableGuests);
         container.appendChild(tableEl);
